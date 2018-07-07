@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74865" started-at="2018-07-03T05:49:32Z" finished-at="2018-07-03T05:50:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74865" started-at="2018-07-03T05:49:32Z" finished-at="2018-07-03T05:50:47Z">
+      <class name="com.demo.googleplay.GooglePlayTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demo.googleplay.GooglePlayTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="18097" started-at="2018-07-03T05:49:32Z" finished-at="2018-07-03T05:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="scrollToElement()[pri:1, instance:com.demo.googleplay.GooglePlayTest@1d8d30f7]" name="scrollToElement" duration-ms="11967" started-at="2018-07-03T05:49:50Z" finished-at="2018-07-03T05:50:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToElement -->
+        <test-method status="PASS" signature="End()[pri:0, instance:com.demo.googleplay.GooglePlayTest@1d8d30f7]" name="End" is-config="true" duration-ms="6800" started-at="2018-07-03T05:50:02Z" finished-at="2018-07-03T05:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demo.googleplay.GooglePlayTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="15592" started-at="2018-07-03T05:50:09Z" finished-at="2018-07-03T05:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchPlayStore()[pri:2, instance:com.demo.googleplay.GooglePlayTest@1d8d30f7]" name="searchPlayStore" duration-ms="15698" started-at="2018-07-03T05:50:25Z" finished-at="2018-07-03T05:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPlayStore -->
+        <test-method status="PASS" signature="End()[pri:0, instance:com.demo.googleplay.GooglePlayTest@1d8d30f7]" name="End" is-config="true" duration-ms="6669" started-at="2018-07-03T05:50:40Z" finished-at="2018-07-03T05:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.demo.googleplay.GooglePlayTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
