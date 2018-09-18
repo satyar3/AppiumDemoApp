@@ -32,5 +32,8 @@
 	<classpathentry kind="lib" path="C:/Back Up/Project Work/Learning Stuffs/Selenium Training By Jitendra/Self Study/Tools/selenium-java-3.12.0/libs/okio-1.13.0.jar"/>
 	<classpathentry kind="lib" path="C:/Back Up/Project Work/Learning Stuffs/Selenium Training By Jitendra/Self Study/Tools/java-client-3.4.1.jar"/>
 	<classpathentry kind="lib" path="C:/Back Up/Project Work/Learning Stuffs/Selenium Training By Jitendra/Self Study/Tools/selenium-server-standalone-3.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Back Up/Project Work/Learning Stuffs/Selenium Training By Jitendra/Self Study/Tools/sikuli-script.jar"/>
+	<classpathentry kind="lib" path="C:/Back Up/Project Work/Learning Stuffs/Selenium Training By Jitendra/Self Study/Tools/Hamcrest/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Back Up/Project Work/Learning Stuffs/Selenium Training By Jitendra/Self Study/Tools/junit.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

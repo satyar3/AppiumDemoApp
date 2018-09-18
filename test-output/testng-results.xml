@@ -1,37 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="74865" started-at="2018-07-03T05:49:32Z" finished-at="2018-07-03T05:50:47Z">
+  <suite name="Default suite" duration-ms="124605" started-at="2018-09-14T07:27:29Z" finished-at="2018-09-14T07:29:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="74865" started-at="2018-07-03T05:49:32Z" finished-at="2018-07-03T05:50:47Z">
-      <class name="com.demo.googleplay.GooglePlayTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demo.googleplay.GooglePlayTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="18097" started-at="2018-07-03T05:49:32Z" finished-at="2018-07-03T05:49:50Z">
+    <test name="Default test" duration-ms="124605" started-at="2018-09-14T07:27:29Z" finished-at="2018-09-14T07:29:33Z">
+      <class name="com.demo.GooglePlayTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demo.GooglePlayTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="21328" started-at="2018-09-14T07:27:29Z" finished-at="2018-09-14T07:27:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="scrollToElement()[pri:1, instance:com.demo.googleplay.GooglePlayTest@1d8d30f7]" name="scrollToElement" duration-ms="11967" started-at="2018-07-03T05:49:50Z" finished-at="2018-07-03T05:50:02Z">
+        <test-method status="FAIL" signature="scrollToElement()[pri:1, instance:com.demo.GooglePlayTest@1d8d30f7]" name="scrollToElement" duration-ms="54761" started-at="2018-09-14T07:27:50Z" finished-at="2018-09-14T07:28:45Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:32:14.902Z'
+System info: host: 'IN2070121W2', ip: '10.180.52.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.vending.AssetBr..., appPackage: com.android.vending, databaseEnabled: false, desired: {appActivity: com.android.vending.AssetBr..., appPackage: com.android.vending, deviceName: 92010457a0ce2315, noReset: true, platformName: android, version: 5.1.1}, deviceManufacturer: samsung, deviceModel: SM-J200G, deviceName: 192.168.0.4:5555, deviceScreenSize: 540x960, deviceUDID: 192.168.0.4:5555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 5.1.1, takesScreenshot: true, version: 5.1.1, warnings: {}, webStorageEnabled: false}
+Session ID: 586b00e5-4f77-4748-adb6-c7307b065788
+*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text,'Install')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:32:14.902Z'
+System info: host: 'IN2070121W2', ip: '10.180.52.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.vending.AssetBr..., appPackage: com.android.vending, databaseEnabled: false, desired: {appActivity: com.android.vending.AssetBr..., appPackage: com.android.vending, deviceName: 92010457a0ce2315, noReset: true, platformName: android, version: 5.1.1}, deviceManufacturer: samsung, deviceModel: SM-J200G, deviceName: 192.168.0.4:5555, deviceScreenSize: 540x960, deviceUDID: 192.168.0.4:5555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 5.1.1, takesScreenshot: true, version: 5.1.1, warnings: {}, webStorageEnabled: false}
+Session ID: 586b00e5-4f77-4748-adb6-c7307b065788
+*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text,'Install')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at com.demo.GooglePlayTest.scrollToElement(GooglePlayTest.java:81)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollToElement -->
-        <test-method status="PASS" signature="End()[pri:0, instance:com.demo.googleplay.GooglePlayTest@1d8d30f7]" name="End" is-config="true" duration-ms="6800" started-at="2018-07-03T05:50:02Z" finished-at="2018-07-03T05:50:09Z">
+        <test-method status="PASS" signature="End()[pri:0, instance:com.demo.GooglePlayTest@1d8d30f7]" name="End" is-config="true" duration-ms="7172" started-at="2018-09-14T07:28:45Z" finished-at="2018-09-14T07:28:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- End -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demo.googleplay.GooglePlayTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="15592" started-at="2018-07-03T05:50:09Z" finished-at="2018-07-03T05:50:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demo.GooglePlayTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="19350" started-at="2018-09-14T07:28:52Z" finished-at="2018-09-14T07:29:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchPlayStore()[pri:2, instance:com.demo.googleplay.GooglePlayTest@1d8d30f7]" name="searchPlayStore" duration-ms="15698" started-at="2018-07-03T05:50:25Z" finished-at="2018-07-03T05:50:40Z">
+        <test-method status="PASS" signature="searchPlayStore()[pri:2, instance:com.demo.GooglePlayTest@1d8d30f7]" name="searchPlayStore" duration-ms="14825" started-at="2018-09-14T07:29:12Z" finished-at="2018-09-14T07:29:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchPlayStore -->
-        <test-method status="PASS" signature="End()[pri:0, instance:com.demo.googleplay.GooglePlayTest@1d8d30f7]" name="End" is-config="true" duration-ms="6669" started-at="2018-07-03T05:50:40Z" finished-at="2018-07-03T05:50:47Z">
+        <test-method status="PASS" signature="End()[pri:0, instance:com.demo.GooglePlayTest@1d8d30f7]" name="End" is-config="true" duration-ms="7103" started-at="2018-09-14T07:29:26Z" finished-at="2018-09-14T07:29:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- End -->
-      </class> <!-- com.demo.googleplay.GooglePlayTest -->
+      </class> <!-- com.demo.GooglePlayTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

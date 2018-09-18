@@ -1,4 +1,4 @@
-package com.demo.googleplay;
+package com.demo;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -28,6 +28,10 @@ public class OpeningWebURL {
 		capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
 		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"92010457a0ce2315");
 		capabilities.setCapability(MobileCapabilityType.VERSION,"5.1.1");
+		
+		//capabilities.setCapability("appPackage", "com.android.chrome");
+		//capabilities.setCapability("appActivity", "com.google.android.apps.chrome.Main");
+		//capabilities.setCapability(MobileCapabilityType.NO_RESET, true); //Won't start from the scratch without reseting the data.
 
 			
 		URL url= new URL("http://127.0.0.1:4723/wd/hub");
